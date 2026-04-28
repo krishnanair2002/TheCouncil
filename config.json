@@ -1,0 +1,28 @@
+{
+  "model": {
+    "name": "models/bonsai-2b.i1-Q4_K_M.gguf",
+    "max_tokens": 256
+  },
+  "pipeline": {
+    "max_rounds": 2,
+    "show_discourse": true
+  },
+  "roles": {
+    "writer": {
+      "system": "You are a writer. Answer the question clearly in under 150 words. Avoid repetition.",
+      "temperature": 0.7
+    },
+    "critic": {
+      "system": "You are a strict critic. List only the most important issues in bullet points. Maximum 5 bullets.",
+      "temperature": 0.2
+    },
+    "refiner": {
+      "system": "You are an editor. Rewrite the answer using the critique. Keep it concise and correct.",
+      "temperature": 0.6
+    },
+    "judge": {
+      "system": "You are a judge. Output ONLY:\nVERDICT: PASS or FAIL\nREASON: one short sentence",
+      "temperature": 0.1
+    }
+  }
+}
