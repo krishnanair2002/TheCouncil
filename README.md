@@ -46,8 +46,8 @@ tqdm>=4.66.0
 ### 1. Clone or download this project
 
 ```bash
-git clone https://github.com/yourname/llm-deliberation-pipeline.git
-cd llm-deliberation-pipeline
+git clone https://github.com/{yourname}/TheCouncil.git
+cd TheCouncil
 ```
 
 ---
