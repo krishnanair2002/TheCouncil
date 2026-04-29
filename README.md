@@ -120,7 +120,8 @@ Edit `config.json` to control behavior:
 {
   "model": {
     "name": "models/mistral-7b-instruct.gguf",
-    "max_tokens": 256
+    "max_tokens": 256,
+    "device": "cpu"
   },
   "pipeline": {
     "max_rounds": 2,
