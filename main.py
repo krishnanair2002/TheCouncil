@@ -8,7 +8,7 @@ class DeliberationPipeline:
             self.config = json.load(f)
 
         self.model = GPT4All(self.config["model"]["name"],
-        model_path="",allow_download=False,n_threads=8,device="cpu")
+        model_path="",allow_download=False,n_threads=8,device=self.config["model"]["device"])
         self.roles = self.config["roles"]
         self.max_tokens = self.config["model"]["max_tokens"]
         self.max_rounds = self.config["pipeline"]["max_rounds"]
