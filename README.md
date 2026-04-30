@@ -109,6 +109,8 @@ models/mistral-7b-instruct.gguf
 ```
 
 ---
+## Model Links
+Verified working models live in modelsites.txt
 
 ## ⚙️ Configuration
 
@@ -282,7 +284,7 @@ deactivate
 
 ## 📜 License
 
-MIT (or your choice)
+MIT
 
 ---
 
@@ -290,9 +292,3 @@ MIT (or your choice)
 
 Feel free to improve prompts, add roles, or optimize for new models.
 
----
-
-## 💡 Tip
-
-Better prompts > bigger models in this setup.
-Tight structure is everything.
