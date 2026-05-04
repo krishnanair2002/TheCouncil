@@ -2,7 +2,7 @@ import os
 from huggingface_hub import snapshot_download
 
 # Change this if you want a different model repo
-REPO_ID = "mradermacher/bonsai-2b-i1-GGUF"
+REPO_ID = "NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
 
 # Choose which file(s) to download
 # Example options:
